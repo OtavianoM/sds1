@@ -23,6 +23,7 @@ const initialPieData = {
 
 const BASE_URL = 'https://sds1-otaviano.herokuapp.com';
 
+
 const Charts = () => {
     const [barChatData, setBarChatData] = useState<BarChatData[]>([]);
     const [platformData, setPlatformData] = useState<PieChartData>(initialPieData);

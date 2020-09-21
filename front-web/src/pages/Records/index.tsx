@@ -8,6 +8,7 @@ import Filters from '../../components/Filters';
 
 const BASE_URL = 'https://sds1-otaviano.herokuapp.com';
 
+
 const Records = () => {
 
     const [recordsResponse, setRecordsResponse] = useState<RecordsResponse>();
